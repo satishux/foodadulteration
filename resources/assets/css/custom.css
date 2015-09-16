@@ -27,6 +27,11 @@ p {
     background : #222;
     border-radius: 0!important;
 }
+.panel-heading h6 {
+    margin-bottom: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
 .page-title {
     margin-top : 20px;
