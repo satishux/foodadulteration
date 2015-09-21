@@ -17,9 +17,9 @@
                 <li class="{{ Active::route('pages.contact', 'active') }}">
                     <a href="{{ route('pages.contact') }}">Contact Us</a>
                 </li>
-                <li class="{{ Active::route('auth.login', 'active') }}">
-                    <a href="{{ route('auth.login') }}">Login</a>
-                </li>
+                {{--<li class="{{ Active::route('auth.login', 'active') }}">--}}
+                    {{--<a href="{{ route('auth.login') }}">Login</a>--}}
+                {{--</li>--}}
             </ul>
         </nav>
     </div><!-- /menu-container -->
